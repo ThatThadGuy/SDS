@@ -1,0 +1,22 @@
+site_name: AZ Cleaning Supplies — Safety Data Sheets
+site_url: https://example.com
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - All SDS: sds.md
+
+plugins:
+  - search
+  - table-reader
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ThatThadGuy/SDS
