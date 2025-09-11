@@ -6,6 +6,7 @@ theme:
 nav:
   - Home: index.md
   - All SDS: sds.md
+  - All TDS: tds.md
 
 plugins:
   - search
