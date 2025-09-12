@@ -2,6 +2,7 @@ site_name: AZ Cleaning Supplies — Safety Data Sheets
 site_url: https://ThatThadGuy.github.io/SDS/
 theme:
   name: material
+  logo: assets/images/logo.png
 
 nav:
   - Home: index.md
