@@ -30,13 +30,14 @@ def main():
                 continue
 
             for file in files:
-                if not file.lower().endswith(".pdf"):
+                lower_file = file.lower()
+                if not lower_file.endswith(".pdf"):
                     continue
 
                 # Create a markdown link to the file.
                 link = f"[{file}](../{Path(root, file)})"
 
-                if "sds" in file.lower():
+                if "sds" in lower_file:
                     sds_rows.append(
                         {
                             "brand": brand,
